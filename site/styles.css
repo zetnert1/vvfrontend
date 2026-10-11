@@ -1,0 +1,85 @@
+﻿html {
+    font-size: 16px;
+}
+
+@font-face {
+    font-family: "MidnightLetters-Regular";
+    src: url("./fonts/MidnightLetters-Regular.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-family: MidnightLetters-Regular;
+    color: #E6DFD5;
+}
+
+body {
+    background-color: #111814;
+    font-family: Bahnschrift;
+    color: #E6DFD5;
+}
+
+.nav-links {
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+
+nav {
+    font-family: MidnightLetters-Regular;
+    color: #E6DFD5;
+    text-align: center;
+    justify-content: center;
+    gap: 150px;
+    background-color: #18221D;
+    border-radius: 20px 20px 20px 20px;
+    padding: 40px;
+}
+
+a:link {
+    color: #E6DFD5;
+}
+
+a:visited {
+    color: #E6DFD5;
+}
+
+a:hover {
+    color: #D48C46;
+}
+
+a:active {
+    color: #D48C46;
+}
+
+footer {
+    background-color: #0B100D;
+    color: #ECE8E1;
+    border-radius: 10px 10px 10px 10px;
+    padding: 2px;
+}
+
+br {
+    color: #637a6a;
+}
+
+p {
+    color: #93A398;
+}
+
+main {
+    background-color: #141D18;
+    border-radius: 20px 20px 20px 20px;
+    padding: 20px;
+}
+
+.img-friends {
+    border-radius: 12px;
+
+}
+
+#me {
+    border-radius: 12px;
+}
