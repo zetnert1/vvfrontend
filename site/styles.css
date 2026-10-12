@@ -2,6 +2,11 @@
     font-size: 16px;
 }
 
+:root {
+    --primary-color-text: #E6DFD5;
+    --primary-color-back: #111814;
+}
+
 @font-face {
     font-family: "MidnightLetters-Regular";
     src: url("./fonts/MidnightLetters-Regular.otf") format("opentype");
@@ -11,13 +16,13 @@
 
 h1 {
     font-family: MidnightLetters-Regular;
-    color: #E6DFD5;
+    color: var(--primary-color-text);
 }
 
 body {
     background-color: #111814;
     font-family: Bahnschrift;
-    color: #E6DFD5;
+    color: var(--primary-color-text);
 }
 
 .nav-links {
@@ -29,21 +34,21 @@ body {
 
 nav {
     font-family: MidnightLetters-Regular;
-    color: #E6DFD5;
+    color: var(--primary-color-text);
     text-align: center;
     justify-content: center;
     gap: 150px;
-    background-color: #18221D;
+    background-image: url("images/nav.jpg");
     border-radius: 20px 20px 20px 20px;
     padding: 40px;
 }
 
 a:link {
-    color: #E6DFD5;
+    color: var(--primary-color-text);
 }
 
 a:visited {
-    color: #E6DFD5;
+    color: var(--primary-color-text);
 }
 
 a:hover {
@@ -58,7 +63,8 @@ footer {
     background-color: #0B100D;
     color: #ECE8E1;
     border-radius: 10px 10px 10px 10px;
-    padding: 2px;
+    padding: 10px;
+    background-image: url("images/footer5.jpg");
 }
 
 br {
@@ -82,4 +88,37 @@ main {
 
 #me {
     border-radius: 12px;
+}
+
+section {
+    background-color: #18221D;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+}
+
+article {
+    background-color: #202C24;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+aside {
+    background-color: #0B100D;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+blockquote {
+    padding: 15px;
+    margin: 20px;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+.important {
+    font-weight: bold;
 }
